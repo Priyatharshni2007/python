@@ -16,18 +16,41 @@
 # x.insert(6,6)
 # print(x)
 
-def fibonacci(n):
-    if n <= 0:
-        return "Please enter a positive number"
-    elif n == 1:
-        return 0
-    elif n == 2:
-        return 1
+# def fibonacci(n):
+#     if n <= 0:
+#         return "Please enter a positive number"
+#     elif n == 1:
+#         return 0
+#     elif n == 2:
+#         return 1
     
-    a,b = 0,1
-    for i in range(2,n):
-        a,b = b,a+b
-    return b
+#     a,b = 0,1
+#     for i in range(2,n):
+#         a,b = b,a+b
+#     return b
     
-n = int(input("Enter the value of n"))
-print(fibonacci(n))
+# n = int(input("Enter the value of n"))
+# print(fibonacci(n))
+
+# x = int(input())
+# y = int(input())
+# prime = True
+# for i in range(x,y+1,1):
+#     for j in range(2,i+1):
+#         if i == 2:
+#             print(f"{i} is a prime number")
+
+#         elif i % j == 0:
+#             print(f"{i} is not a prime number")
+#             break
+#         else:
+#             print(f"{i} is a prime number")
+#             break
+        
+
+
+
+# if __name__ == '__main__':
+#     n = int(input())
+#     for i in range(1,n+1):
+#         print(i,end="")
